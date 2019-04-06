@@ -1,1038 +1,570 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d9c9122-b602-4eea-bd6f-47027524659b" name="Default" comment="Changes in id" />
-    <ignored path="Example.iws" />
-    <ignored path=".idea/workspace.xml" />
+    <list default="true" id="7970746b-7f79-43da-875d-397b8198ac22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/icon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/ActivityCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/ActivityLayoutCleanArch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/AdapterCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/BaseServiceCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/CacheCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/CloudEntityDataSourceCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/DataSourceCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/DataStoreFactoryCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/DiskEntityDataSourceCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/FragmentCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/ParentActivityCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/ParentDialogFragmentCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/ParentFragmentCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/ParentPresenterCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/PresenterCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/PresenterImplCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/RepositoryCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/ServerResponseCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/ServiceCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/UseCaseCleanArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/UtilsCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clean Architecture Generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Clean Architecture Generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/ExampleCopyResourcesFolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/ExampleCopyResourcesFolderForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/FormCreation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/GeneratorClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/EntityBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/base/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/base/data/BaseDataController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/base/data/ParentAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/base/data/ParentModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/base/domain/BaseDomainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/base/view/BaseViewController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/base/view/ParentActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/base/view/ParentDialogFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/base/view/ParentFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/base/view/Presenter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/data/DataController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/data/EntityAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/data/EntityCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/data/EntityModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/data/EntityRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/domain/DomainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/util/UtilController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/view/EntityActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/view/EntityAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/view/EntityFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/view/EntityPresenter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/components/view/ViewController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/model/EntityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/architecture/model/NamesPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/com/intellij/uiDesigner/core/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ActivityCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ActivityCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ActivityLayoutCleanArch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ActivityLayoutCleanArch.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/AdapterCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/AdapterCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/BaseServiceCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/BaseServiceCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/CacheCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/CacheCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/CloudEntityDataSourceCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/CloudEntityDataSourceCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ConstantsCleanArch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/DataSourceCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/DataSourceCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/DataStoreFactoryCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/DataStoreFactoryCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/DiskEntityDataSourceCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/DiskEntityDataSourceCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/FragmentCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/FragmentCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ParentActivityCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ParentActivityCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ParentDialogFragmentCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ParentDialogFragmentCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ParentFragmentCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ParentFragmentCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ParentPresenterCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ParentPresenterCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/PresenterCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/PresenterCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/PresenterImplCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/PresenterImplCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/RepositoryCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/RepositoryCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ServerResponseCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ServerResponseCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ServiceCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/ServiceCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/UseCaseCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/UseCaseCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/UtilsCleanArch.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clean Architecture Generator/templates/UtilsCleanArch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/FormCreation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/META-INF/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/MyActionClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/EntityBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/base/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/base/data/BaseDataController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/base/data/ParentAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/base/data/ParentModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/base/domain/BaseDomianController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/base/view/BaseViewController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/base/view/ParentActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/base/view/ParentDialogFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/base/view/ParentFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/base/view/Presenter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/data/DataController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/data/EntityAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/data/EntityCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/data/EntityModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/data/EntityRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/domain/DomainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/model/EntityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/pluginUtils/NamesPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/util/UtilController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/view/EntityActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/view/EntityAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/view/EntityFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/view/EntityPresenter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/architecture/view/ViewController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Example/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExampleCopyResourcesFolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/ExampleCopyResourcesFolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExampleCopyResourcesFolderForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/ExampleCopyResourcesFolderForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExampleCopyResourcesFolderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/ExampleCopyResourcesFolderForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormCreation.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/FormCreation.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/FormCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneratorClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/GeneratorClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/EntityBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/model/EntityBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/base/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/base/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/base/data/BaseDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/base/data/BaseDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/base/data/ParentAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/base/data/ParentAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/base/data/ParentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/base/data/ParentModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/base/domain/BaseDomainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/base/domain/BaseDomainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/base/view/BaseViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/base/view/BaseViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/base/view/ParentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/base/view/ParentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/base/view/ParentDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/base/view/ParentDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/base/view/ParentFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/base/view/ParentFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/base/view/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/base/view/Presenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/data/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/data/DataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/data/EntityAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/data/EntityAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/data/EntityCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/data/EntityCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/data/EntityModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/data/EntityModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/data/EntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/data/EntityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/domain/DomainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/domain/DomainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/util/UtilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/util/UtilController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/view/EntityActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/view/EntityActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/view/EntityAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/view/EntityAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/view/EntityFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/view/EntityFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/view/EntityPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/view/EntityPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/components/view/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/components/view/ViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/model/EntityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/model/EntityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/architecture/model/NamesPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/model/NamesPlugin.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="Example" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CleanArchitecturePlugin" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CleanArchitecturePlugin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/architecture/ExampleCopyResourcesFolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="26" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="195">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/architecture/components/view/ViewController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/architecture/GeneratorClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="480">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/architecture/FormCreation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="43" column="52" lean-forward="true" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="ModuleComponent" />
-        <option value="Activity" />
-        <option value="Presenter" />
-        <option value="Interface" />
-        <option value="FragmentMVP" />
-        <option value="ActivityCleanArch" />
-        <option value="PresenterCleanArch" />
-        <option value="ConstantsCleanArch" />
-        <option value="Action" />
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>EntityBase</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/architecture/pluginUtils/NamesPlugin.java" />
-        <option value="$PROJECT_DIR$/src/FormCreation.form" />
-        <option value="$PROJECT_DIR$/src/architecture/base/data/BaseDataController.java" />
-        <option value="$PROJECT_DIR$/src/architecture/base/domain/BaseDomianController.java" />
-        <option value="$PROJECT_DIR$/src/architecture/base/data/ParentModel.java" />
-        <option value="$PROJECT_DIR$/src/architecture/base/data/ParentAPI.java" />
-        <option value="$PROJECT_DIR$/src/architecture/base/domain/BaseDomainController.java" />
-        <option value="$PROJECT_DIR$/src/architecture/base/view/BaseViewController.java" />
-        <option value="$PROJECT_DIR$/src/architecture/base/view/ParentDialogFragment.java" />
-        <option value="$PROJECT_DIR$/src/architecture/base/view/ParentActivity.java" />
-        <option value="$PROJECT_DIR$/src/architecture/base/view/ParentFragment.java" />
-        <option value="$PROJECT_DIR$/src/architecture/base/view/Presenter.java" />
-        <option value="$PROJECT_DIR$/src/architecture/base/BaseController.java" />
-        <option value="$PROJECT_DIR$/src/architecture/data/EntityAPI.java" />
-        <option value="$PROJECT_DIR$/src/architecture/data/EntityCache.java" />
-        <option value="$PROJECT_DIR$/src/architecture/data/EntityModel.java" />
-        <option value="$PROJECT_DIR$/src/architecture/data/DataController.java" />
-        <option value="$PROJECT_DIR$/src/architecture/data/EntityRepository.java" />
-        <option value="$PROJECT_DIR$/src/architecture/domain/DomainController.java" />
-        <option value="$PROJECT_DIR$/src/architecture/util/UtilController.java" />
-        <option value="$PROJECT_DIR$/src/architecture/view/EntityPresenter.java" />
-        <option value="$PROJECT_DIR$/src/architecture/view/EntityAdapter.java" />
-        <option value="$PROJECT_DIR$/src/architecture/view/EntityActivity.java" />
-        <option value="$PROJECT_DIR$/src/architecture/view/EntityFragment.java" />
-        <option value="$PROJECT_DIR$/src/architecture/view/ViewController.java" />
-        <option value="$PROJECT_DIR$/src/FormCreation.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/domain/DomainController.java" />
-        <option value="$PROJECT_DIR$/src/GeneratorClass.java" />
-        <option value="$PROJECT_DIR$/src/DialogForm.form" />
-        <option value="$PROJECT_DIR$/src/DialogClass.java" />
-        <option value="$PROJECT_DIR$/src/DialogForm.java" />
-        <option value="$PROJECT_DIR$/src/ExampleCopyResourcesFolder.java" />
-        <option value="$PROJECT_DIR$/updatePlugin.xml" />
-        <option value="$PROJECT_DIR$/updatePlugins.xml" />
-        <option value="$PROJECT_DIR$/src/architecture/model/NamesPlugin.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/data/EntityRepository.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/base/view/ParentFragment.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/base/view/ParentDialogFragment.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/base/view/BaseViewController.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/base/domain/BaseDomainController.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/util/UtilController.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/base/data/ParentAPI.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/base/data/BaseDataController.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/base/BaseController.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/base/data/ParentModel.java" />
-        <option value="$PROJECT_DIR$/src/architecture/EntityBase.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/base/view/ParentActivity.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/data/DataController.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/base/view/Presenter.java" />
-        <option value="$PROJECT_DIR$/src/architecture/components/view/ViewController.java" />
-        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/architecture/components/base/BaseController.java" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android</id>
-          </State>
-          <State>
-            <id>CorrectnessLintAndroid</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>LintAndroid</id>
-          </State>
-          <State>
-            <id>Maven</id>
-          </State>
-          <State>
-            <id>Numeric issuesJava</id>
-          </State>
-          <State>
-            <id>Plugin DevKit</id>
-          </State>
-          <State>
-            <id>XPath</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>PluginXmlValidity</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectReloadState">
-    <option name="STATE" value="1" />
-  </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages ProjectPane="false" />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CleanArchitecturePlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="CleanArchitecturePlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CleanArchitecturePlugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CleanArchitecturePlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CleanArchitecturePlugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CleanArchitecturePlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CleanArchitecturePlugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CleanArchitecturePlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CleanArchitecturePlugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CleanArchitecturePlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CleanArchitecturePlugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CleanArchitecturePlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CleanArchitecturePlugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="architecture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CleanArchitecturePlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CleanArchitecturePlugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CleanArchitecturePlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CleanArchitecturePlugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="554" />
-    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
-    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="example" />
-    <property name="SearchEverywhereHistoryKey" value="plu&#9;FILE&#9;file://C:/Users/Alvaro/IdeaProjects/CleanArchitecturePlugin/resources/META-INF/plugin.xml&#10;viewco&#9;FILE&#9;file://C:/Users/Alvaro/IdeaProjects/CleanArchitecturePlugin/src/architecture/components/view/ViewController.java&#10;entitypre&#9;FILE&#9;file://C:/Users/Alvaro/IdeaProjects/CleanArchitecturePlugin/src/architecture/components/view/EntityPresenter.java&#10;entitybase&#9;FILE&#9;file://C:/Users/Alvaro/IdeaProjects/CleanArchitecturePlugin/src/architecture/EntityBase.java&#10;pl&#9;FILE&#9;file://C:/Users/Alvaro/Desktop/Clean Architecture Generator/resources/META-INF/plugin.xml&#10;entityfr&#9;FILE&#9;file://C:/Users/alvaro/IdeaProjects/Example/src/architecture/view/EntityFragment.java&#10;JavaDirectoryService&#9;FILE&#9;jar://C:/Program Files (x86)/JetBrains/IntelliJ IDEA Community Edition 2016.1.3/lib/idea.jar!/com/intellij/psi/impl/file/JavaDirectoryServiceImpl.class" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="PsiViewer.ProjectComponent">
-    <option name="HIGHLIGHT" value="false" />
-    <option name="FILTER_WHITESPACE" value="false" />
-    <option name="SHOW_PROPERTIES" value="true" />
-    <option name="SPLIT_DIVIDER_POSITION" value="300" />
-    <option name="AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\alvaro\IdeaProjects\Example\src\template" />
-      <recent name="C:\Users\alvaro\IdeaProjects\Example\src" />
-      <recent name="C:\Users\alvaro\IdeaProjects\Example\src\architecture\utils" />
+      <recent name="$PROJECT_DIR$/src/main/java/architecture" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\alvaro\IdeaProjects\Clean Architecture Generator\resources\icons" />
-      <recent name="C:\Users\alvaro\IdeaProjects\Example\src" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Plugin.Plugin">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="Clean Architecture Generator" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Example" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="Clean Architecture Generator" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Plugin.Plugin" />
-    </list>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1d9c9122-b602-4eea-bd6f-47027524659b" name="Default" comment="" />
-      <created>1467268357524</created>
+      <changelist id="7970746b-7f79-43da-875d-397b8198ac22" name="Default Changelist" comment="" />
+      <created>1554544910354</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1467268357524</updated>
+      <updated>1554544910354</updated>
     </task>
-    <task id="LOCAL-00001" summary="Changes in id">
-      <created>1469117995852</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1469117995852</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22727273" sideWeight="0.44947916" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22727273" sideWeight="0.55052084" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22916667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34778014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27625203" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32876712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.31260097" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3567447" sideWeight="0.5021322" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3478261" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3567447" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.195629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changes in id" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in id" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="62" />
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-        <watch expression="iterator.getName()" language="JAVA" custom="" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../intellij-community-master/platform/vcs-log/graph/src/com/intellij/vcs/log/graph/impl/facade/BaseController.java" />
-    <entry file="file://$PROJECT_DIR$/../intellij-community-master/xml/xml-psi-api/src/com/intellij/psi/XmlElementFactory.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/ClassLoader.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/Class.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/org/w3c/dom/Element.java" />
-    <entry file="file://$PROJECT_DIR$/../intellij-community-master/platform/util/src/com/intellij/openapi/util/Computable.java" />
-    <entry file="file://$PROJECT_DIR$/../intellij-community-master/platform/core-api/src/com/intellij/openapi/command/WriteCommandAction.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/awt/Frame.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/awt/Window.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/awt/Image.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/javax/swing/JFrame.java" />
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/data/EntityCache.java" />
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/data/EntityModel.java" />
-    <entry file="file://$PROJECT_DIR$/src/architecture/model/EntityConfig.java">
+    <entry file="file://$PROJECT_DIR$/resources/templates/CloudEntityDataSourceCleanArch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/A.java" />
-    <entry file="file://$PROJECT_DIR$/../intellij-community-master/platform/external-system-api/src/com/intellij/openapi/externalSystem/model/project/ExternalConfigPathAware.java" />
-    <entry file="file://$PROJECT_DIR$/../intellij-community-master/platform/lang-impl/src/com/intellij/platform/templates/ArchivedTemplatesFactory.java" />
-    <entry file="file://$PROJECT_DIR$/../intellij-community-master/platform/util/src/com/intellij/openapi/application/PathManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/FormCreation.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-867">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FormCreation.java">
+    <entry file="file://$PROJECT_DIR$/resources/templates/RepositoryCleanArch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExampleCopyResourcesFolderForm.form" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar!/sun/security/tools/keytool/Resources.class" />
-    <entry file="file://$PROJECT_DIR$/src/ExampleCopyResourcesFolderForm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/architecture/components/data/EntityModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="120">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExampleCopyResourcesFolder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/architecture/components/data/EntityRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneratorClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/architecture/model/EntityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="330">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/updatePlugins.xml.txt" />
     <entry file="file://$PROJECT_DIR$/updatePlugins.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="75">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/model/NamesPlugin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/architecture/ExampleCopyResourcesFolderForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+        <state relative-caret-position="150">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/view/EntityFragment.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        <state relative-caret-position="315">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/view/EntityAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/architecture/components/base/data/BaseDataController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="533">
+          <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/idea/platform/core-api/src/com/intellij/psi/PsiDirectory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/architecture/model/NamesPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+        <state relative-caret-position="225">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/base/domain/BaseDomainController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/architecture/components/base/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        <state relative-caret-position="195">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/base/data/ParentModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/architecture/model/EntityBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        <state relative-caret-position="227">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/base/data/ParentAPI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/architecture/ExampleCopyResourcesFolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/base/data/BaseDataController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/base/view/ParentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/base/view/ParentFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/base/view/ParentDialogFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/base/view/BaseViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/base/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/EntityBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1040">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/util/UtilController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/data/EntityRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/data/EntityAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/domain/DomainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="195">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/view/EntityActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/architecture/GeneratorClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        <state relative-caret-position="480">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/view/EntityPresenter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/architecture/FormCreation.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/architecture/FormCreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="263">
+          <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/base/view/Presenter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/data/DataController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/architecture/components/view/ViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="26" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="154">
+          <caret line="43" column="52" lean-forward="true" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1053,7 +585,6 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1076,7 +607,6 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>IntelliJ IDEA Community Edition IC-162.1121.32</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1088,11 +618,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Clean Architecture Generator</last-edited>
+          <last-edited>main|CleanArchitecturePlugin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1100,7 +631,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>IntelliJ IDEA Community Edition IC-145.1617.8</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1111,17 +642,6 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
